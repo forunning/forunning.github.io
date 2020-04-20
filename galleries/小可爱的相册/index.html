@@ -3,8 +3,8 @@
 
 <head><meta name="generator" content="Hexo 3.9.0">
     <meta charset="utf-8">
-    <meta name="keywords" content="星空无限 前端 技术笔记 个人随笔">
-    <meta name="description" content="星空无限">
+    <meta name="keywords" content="小可爱的相册, 星空无限 前端 技术笔记 个人随笔">
+    <meta name="description" content="小可爱的相册 | 星空无限">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -12,7 +12,7 @@
     <meta name="format-detection" content="telephone=no">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <title>星空无限</title>
+    <title>小可爱的相册 | 星空无限</title>
     <link rel="icon" type="image/png" href="/favicon.png">
     <link rel="stylesheet" type="text/css" href="https://cdn.staticfile.org/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="https://cdn.staticfile.org/materialize/1.0.0-rc.2/css/materialize.min.css">
@@ -278,171 +278,52 @@
 
 </header>
 
+<link rel="stylesheet" href="/css/gallery.css">
+<link rel="stylesheet" type="text/css" href="https://cdn.staticfile.org/fancybox/3.5.7/jquery.fancybox.min.css">
+<link rel="stylesheet" type="text/css" href="https://cdn.staticfile.org/justifiedGallery/3.7.0/css/justifiedGallery.min.css">
 
-    <div class="bg-cover pd-header about-cover rainbow">
+
+<div class="bg-cover pd-header post-cover" style="background-image: url('https://images.liyangzone.com/medias/featureimages/14886762205_d1ecfd0a07_b.jpg')">
     <div class="container">
-    <div class="row">
-    <div class="col s12  m12  l12">
-        <div class="brand">
-            <div class="title center-align">
-                
-                    路漫漫其修远兮，吾将上下而求索
-                
-            </div>
-
-            <div class="description center-align">
-                
-                    I will keep coding , keep riding
-                
+        <div class="row">
+            <div class="col s12 m12 l12">
+                <div class="brand">
+                    <div class="description center-align post-title">
+                        小可爱的相册
+                    </div>
+                </div>
             </div>
         </div>
     </div>
 </div>
+
+<div class="container">
+    <div class="photo-wrapper">
+        
+            <script src="/js/crypto-js.js"></script>
+            <script src="/js/gallery-encrypt.js"></script>
+            <div id="hbe-security">
+                <div class="hbe-input-container">
+                    <input type="password" class="hbe-form-control" id="pass" placeholder="请输入密码查看内容"/>
+                    <a href="javascript:;" class="btn-decrypt" id="btn_decrypt">解密</a>
+                </div>
+            </div>
+            <div id="mygallery">
+                <div class="waterfall" id="encrypt-blog" style="display:none">
+                    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
+                </div>
+            </div>
+        
+    </div>
+</div>
+<script src=""></script>
+<script src="https://cdn.staticfile.org/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+<script src="https://cdn.staticfile.org/justifiedGallery/3.7.0/js/jquery.justifiedGallery.min.js"></script>
 <script>
-// 每天切换 banner 图.  Switch banner image every day.
-$('.bg-cover').css('background-image', 'url(https://images.liyangzone.com/medias/banner/' + new Date().getDay() + '.jpg)');
+  // $(".waterfall").lazyload();
+  $("a[rel=example_group]").fancybox();
+  $("#encrypt-blog").justifiedGallery({margins: 5, rowHeight: 150});
 </script>
-
-    </div>
-</div>
-
-
-
-<main class="content">
-
-    
-
-    
-
-    <!-- 所有文章卡片 -->
-    <article id="articles" class="container articles">
-        <div class="row article-row">
-            
-            <div class="article col s12 m6 l4" data-aos="zoom-in">
-                <div class="card">
-                    <a href="/2019/07/17/markdown使用指南/">
-                        <div class="card-image">
-                            
-                            
-                            <img src="https://images.liyangzone.com/medias/featureimages/12156466194_0b3617b44f_k.jpg" class="responsive-img" alt="Markdown使用指南">
-                            
-                            <span class="card-title">Markdown使用指南</span>
-                        </div>
-                    </a>
-
-                    <div class="card-content article-content">
-                        <div class="summary block-with-text">
-                            
-                                Markdown是什么？ 谁创造了它？ 为什么要使用它？ 怎么使用？
-                            
-                        </div>
-                        <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="fa fa-clock-o fa-fw icon-date"></i>2019-07-17
-                            </span>
-                            <span class="publish-author">
-                                
-                                <i class="fa fa-bookmark fa-fw icon-category"></i>
-                                
-                                <a href="/categories/技术分享/" class="post-category" target="_blank">
-                                    技术分享
-                                </a>
-                                
-                                
-                            </span>
-                        </div>
-                    </div>
-
-                    
-                    <div class="card-action article-tags">
-                        
-                        <a href="/tags/Markdown/" target="_blank">
-                            <span class="chip bg-color">Markdown</span>
-                        </a>
-                        
-                    </div>
-                    
-                </div>
-            </div>
-            
-            <div class="article col s12 m6 l4" data-aos="zoom-in">
-                <div class="card">
-                    <a href="/2019/07/15/hello-world/">
-                        <div class="card-image">
-                            
-                            
-                            <img src="https://images.liyangzone.com/medias/featureimages/9491229619_9eb1070c50_k.jpg" class="responsive-img" alt="Hello，world！">
-                            
-                            <span class="card-title">Hello，world！</span>
-                        </div>
-                    </a>
-
-                    <div class="card-content article-content">
-                        <div class="summary block-with-text">
-                            
-                                博客问世，hello world!
-
-                            
-                        </div>
-                        <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="fa fa-clock-o fa-fw icon-date"></i>2019-07-15
-                            </span>
-                            <span class="publish-author">
-                                
-                                <i class="fa fa-bookmark fa-fw icon-category"></i>
-                                
-                                <a href="/categories/生活记录/" class="post-category" target="_blank">
-                                    生活记录
-                                </a>
-                                
-                                
-                            </span>
-                        </div>
-                    </div>
-
-                    
-                    <div class="card-action article-tags">
-                        
-                        <a href="/tags/hello-world/" target="_blank">
-                            <span class="chip bg-color">hello world</span>
-                        </a>
-                        
-                    </div>
-                    
-                </div>
-            </div>
-            
-        </div>
-    </article>
-
-</main>
-
-
-<div class="container paging">
-    <div class="row">
-        <div class="col s6 m4 l4">
-            
-            <a href="/"
-               class="left btn-floating btn-large waves-effect waves-light bg-color">
-                <i class="fa fa-angle-left"></i>
-            </a>
-            
-        </div>
-        <div class="page-info col m4 l4 hide-on-small-only">
-            <div class="center-align b-text-gray">2 / 2</div>
-        </div>
-        <div class="col s6 m4 l4">
-            
-            <a class="right btn-floating btn-large disabled">
-                <i class="fa fa-angle-right"></i>
-            </a>
-            
-        </div>
-    </div>
-</div>
-
-
 
 <footer class="page-footer foot-bg-color">
     <div class="container row center-align">
@@ -453,7 +334,7 @@ $('.bg-cover').css('background-image', 'url(https://images.liyangzone.com/medias
 
             
                 &nbsp;<i class="fa fa-area-chart"></i>&nbsp;站点总字数:&nbsp;
-                <span class="white-color">24.7k</span>
+                <span class="white-color">10.6k</span>
             
 
             
