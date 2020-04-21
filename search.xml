@@ -637,7 +637,7 @@ http://imgs.liyangzone.com/2017/IMG_20170508_163002.jpg!w75<span aria-hidden="tr
 <pre class="line-numbers language-markdown"><code class="language-markdown">&lt;http://example.com/>
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>address@example.com</span><span class="token punctuation">></span></span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
 <p>view</p>
-<p><a href="http://example.com/" target="_blank" rel="noopener">http://example.com/</a><br><a href="mailto:&#97;&#x64;&#x64;&#114;&#101;&#115;&#115;&#64;&#x65;&#x78;&#x61;&#109;&#112;&#x6c;&#x65;&#46;&#99;&#x6f;&#x6d;" target="_blank" rel="noopener">&#97;&#x64;&#x64;&#114;&#101;&#115;&#115;&#64;&#x65;&#x78;&#x61;&#109;&#112;&#x6c;&#x65;&#46;&#99;&#x6f;&#x6d;</a></p>
+<p><a href="http://example.com/" target="_blank" rel="noopener">http://example.com/</a><br><a href="mailto:&#97;&#100;&#100;&#x72;&#x65;&#x73;&#x73;&#64;&#x65;&#120;&#97;&#109;&#x70;&#108;&#101;&#46;&#99;&#x6f;&#109;" target="_blank" rel="noopener">&#97;&#100;&#100;&#x72;&#x65;&#x73;&#x73;&#64;&#x65;&#120;&#97;&#109;&#x70;&#108;&#101;&#46;&#99;&#x6f;&#109;</a></p>
 <hr>
 <h4 id="4-锚点"><a href="#4-锚点" class="headerlink" title="4. 锚点"></a>4. 锚点</h4><p>网页中，锚点其实就是页内超链接，也就是链接本文档内部的某些元素，实现当前页面中的跳转。比如我这里写下一个锚点，点击回到目录，就能跳转到目录。 在目录中点击这一节，就能跳过来。还有下一节的注脚。这些根本上都是用锚点来实现的。</p>
 <p>注意： </p>
@@ -1015,8 +1015,8 @@ var object ={
 ]]></content>
   </entry>
   <entry>
-    <title>相册</title>
-    <url>/galleries/index.html</url>
+    <title>友情链接</title>
+    <url>/friends/index.html</url>
     <content><![CDATA[]]></content>
   </entry>
   <entry>
@@ -1025,8 +1025,8 @@ var object ={
     <content><![CDATA[]]></content>
   </entry>
   <entry>
-    <title>友情链接</title>
-    <url>/friends/index.html</url>
+    <title>相册</title>
+    <url>/galleries/index.html</url>
     <content><![CDATA[]]></content>
   </entry>
   <entry>
@@ -1035,13 +1035,13 @@ var object ={
     <content><![CDATA[]]></content>
   </entry>
   <entry>
-    <title>小可爱的相册</title>
-    <url>/galleries/%E5%B0%8F%E5%8F%AF%E7%88%B1%E7%9A%84%E7%9B%B8%E5%86%8C/index.html</url>
+    <title>大可爱的相册</title>
+    <url>/galleries/%E5%A4%A7%E5%8F%AF%E7%88%B1%E7%9A%84%E7%9B%B8%E5%86%8C/index.html</url>
     <content><![CDATA[]]></content>
   </entry>
   <entry>
-    <title>大可爱的相册</title>
-    <url>/galleries/%E5%A4%A7%E5%8F%AF%E7%88%B1%E7%9A%84%E7%9B%B8%E5%86%8C/index.html</url>
+    <title>小可爱的相册</title>
+    <url>/galleries/%E5%B0%8F%E5%8F%AF%E7%88%B1%E7%9A%84%E7%9B%B8%E5%86%8C/index.html</url>
     <content><![CDATA[]]></content>
   </entry>
 </search>
